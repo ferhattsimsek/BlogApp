@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/sadikturan/Desktop/BlogApp/BlogApp/BlogApp.csproj": {}
+    "/Users/sadikturan/Desktop/aspnetcore-dersleri/BlogApp/BlogApp/BlogApp.csproj": {}
   },
   "projects": {
-    "/Users/sadikturan/Desktop/BlogApp/BlogApp/BlogApp.csproj": {
+    "/Users/sadikturan/Desktop/aspnetcore-dersleri/BlogApp/BlogApp/BlogApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/sadikturan/Desktop/BlogApp/BlogApp/BlogApp.csproj",
+        "projectUniqueName": "/Users/sadikturan/Desktop/aspnetcore-dersleri/BlogApp/BlogApp/BlogApp.csproj",
         "projectName": "BlogApp",
-        "projectPath": "/Users/sadikturan/Desktop/BlogApp/BlogApp/BlogApp.csproj",
+        "projectPath": "/Users/sadikturan/Desktop/aspnetcore-dersleri/BlogApp/BlogApp/BlogApp.csproj",
         "packagesPath": "/Users/sadikturan/.nuget/packages/",
-        "outputPath": "/Users/sadikturan/Desktop/BlogApp/BlogApp/obj/",
+        "outputPath": "/Users/sadikturan/Desktop/aspnetcore-dersleri/BlogApp/BlogApp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/sadikturan/.nuget/NuGet/NuGet.Config"
@@ -37,6 +37,12 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
